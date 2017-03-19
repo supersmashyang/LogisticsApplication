@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FacilitiesNetwork>
+    
+    <Facility Location="Seattle, WA" >
+        <rate>8</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Fargo, ND" </Location>
+            <distance>1426</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"San Francisco"</Location>
+            <distance>808</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+    
+    <Facility Location="San Francisco" >
+        <rate>12</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Seattle, WA" </Location>
+            <distance>808</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Denver, CO"</Location>>
+            <distance>1249</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Los Angeles,CA"</Location>
+            <distance>382</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Los Angeles, CA" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"San Francisco" </Location>
+            <distance>382</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Phoenix, AZ"</Location>
+            <distance>372</distance>
+        </AdjacentFacilitiy>       
+    </Facility>
+
+    <Facility Location="Phoenix, AZ" >
+        <rate>8</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Los Angeles" </Location>
+            <distance>372</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Santa Fe, NM"</Location>
+            <distance>480</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Denver, CO" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"San Francisco" </Location>
+            <distance>1249</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Santa Fe, NM"</Location>
+            <distance>480</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Fargo, ND"</Location>
+            <distance>889</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"St. Louis, MO"</Location>
+            <distance>851</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Santa Fe, NM" >
+        <rate>8</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Phoenix, AZ" </Location>
+            <distance>480</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Denver, CO"</Location>
+            <distance>392</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"St. Louis, MO"</Location>
+            <distance>1032</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Austiin, Tx"</Location>
+            <distance>688</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Fargo, ND" >
+        <rate>8</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Seattle, WA" </Location>
+            <distance>1426</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Denver, CO"</Location>
+            <distance>889</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Chicago, IL"</Location>
+            <distance>643</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+
+    <Facility Location="Austiin, Tx" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Santa Fe, NM" </Location>
+            <distance>688</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"St. Louis, MO"</Location>
+            <distance>825</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New Orleans, LA"</Location>
+            <distance>512</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="St. Louis, MO" >
+        <rate>12</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Chicago, IL" </Location>
+            <distance>297</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Nashville, TN"</Location>
+            <distance>309</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Austin, TX"</Location>
+            <distance>825</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Santa Fe, NM"</Location>
+            <distance>1032</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Denver, CO"</Location>
+            <distance>851</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Chicago, IL" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Fargo, ND" </Location>
+            <distance>643</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"St. Louis, MO"</Location>
+            <distance>297</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New York City"</Location>
+            <distance>790</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Detroit, MI"</Location>
+            <distance>282</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+
+    <Facility Location="New Orleans, LA" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Austin, TX" </Location>
+            <distance>512</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Nashville, TN"</Location>
+            <distance>532</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Alanta, GA"</Location>
+            <distance>469</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Miami, FL"</Location>
+            <distance>864</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Nashville, TN" >
+        <rate>8</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"St. Louis, MO" </Location>
+            <distance>309</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New Orleans, LA"</Location>
+            <distance>532</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Norfolk, VA"</Location>
+            <distance>706</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Detroit, MI" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Chicago, IL" </Location>
+            <distance>282</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New York City, NY"</Location>
+            <distance>614</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Boston, MA"</Location>
+            <distance>719</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+     <Facility Location="Boston, MA" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Detroit, MI" </Location>
+            <distance>719</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New York City, NY"</Location>
+            <distance>215</distance>
+        </AdjacentFacilitiy>     
+
+    </Facility>
+
+    <Facility Location="New York City, NY" >
+        <rate>14</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Boston, MA" </Location>
+            <distance>215</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Detroit, MI"</Location>
+            <distance>614</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Chicago, IL"</Location>
+            <distance>790</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Norfolk, VA"</Location>
+            <distance>363</distance>
+        </AdjacentFacilitiy>
+    </Facility>
+
+    <Facility Location="Norfolk, VA" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"New York City, NY" </Location>
+            <distance>363</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Nashville, TN"</Location>
+            <distance>706</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Atlanta, GA"</Location>
+            <distance>566</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Atlanta, GA" >
+        <rate>10</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Norfolk, VA" </Location>
+            <distance>566</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New Orleans, LA"</Location>
+            <distance>469</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"Miami, FL"</Location>
+            <distance>663</distance>
+        </AdjacentFacilitiy>
+
+    </Facility>
+
+    <Facility Location="Miami, FL" >
+        <rate>12</rate> 
+        <cost>300</cost>
+
+        <AdjacentFacilitiy>
+            <Location>"Atlanta, GA" </Location>
+            <distance>663</distance>
+        </AdjacentFacilitiy>
+
+        <AdjacentFacilitiy>
+            <Location>"New Orleans"</Location>
+            <distance>864</distance>
+        </AdjacentFacilitiy>    
+
+    </Facility>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+    
+</FacilitiesNetwork>
